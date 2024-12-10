@@ -1,0 +1,14 @@
+/*-------- General -------*/
+body{
+    margin:0;
+}
+
+
+/*------ Header --------*/
+.cabecera{
+    background-color: #010101;
+    display:flex;
+    width: 100%;
+}
+
+
