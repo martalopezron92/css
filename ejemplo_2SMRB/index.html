@@ -4,59 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SiTour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_2SMRB.css">
 </head>
 <body>
-    <header>
-        <img src="../img/logo-Photoroom.png" alt="">
-        <nav>
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Actividades</a></li>
-                <li><a href="">Quien soy</a></li>
-                <li><a href="">Contacto</a></li>
+    <header class="cabecera">
+        <img class="cabecera__logo" src="../img/logo-Photoroom.png" alt="">
+        <nav class="cabecera__menu">
+            <ul class="cabecera__menu__lista">
+                <li><a class="cabecera__menu__lista__enlace" href="">Inicio</a></li>
+                <li><a class="cabecera__menu__lista__enlace" href="">Actividades</a></li>
+                <li><a class="cabecera__menu__lista__enlace" href="">Quien soy</a></li>
+                <li><a class="cabecera__menu__lista__enlace" href="">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Próximos viajes con SiTour</h1>
-        <section>
-            <article>
-                <img src="../img/destino1.jpg" alt="">
-                <div>
-                    <span>Venecia</span>
-                    <a href="">Ver destino</a>
+    <main class="principal">
+        <h1 class="principal__texto">Próximos viajes con SiTour</h1>
+        <section class="principal__viajes">
+            <article class="principal__viajes__art">
+                <img class = "principal__viajes__art__img" src="../img/destino1.jpg" alt="">
+                <div class="principal__viajes__art__div">
+                    <span class="principal__viajes__art__div__text">Venecia</span>
+                    <a class="principal__viajes__art__div__enlace" href="">Ver destino</a>
                 </div>
             </article>
-            <article>
-                <img src="../img/destino2.jpg" alt="">
-                <div>
-                    <span>Islandia</span>
-                    <a href="">Ver destino</a>
+            <article class="principal__viajes__art">
+                <img class="principal__viajes__art__img" src="../img/destino2.jpg" alt="">
+                <div class="principal__viajes__art__div">
+                    <span class="principal__viajes__art__div__text">Islandia</span>
+                    <a class="principal__viajes__art__div__enlace" href="">Ver destino</a>
                 </div>
             </article>
-            <article>
-                <img src="../img/destino3.jpg" alt="">
-                <div>
-                    <span>Marruecos</span>
-                    <a href="">Ver destino</a>
+            <article class="principal__viajes__art">
+                <img class="principal__viajes__art__img" src="../img/destino3.jpg" alt="">
+                <div class="principal__viajes__art__div">
+                    <span class="principal__viajes__art__div__text">Marruecos</span>
+                    <a class="principal__viajes__art__div__enlace" href="">Ver destino</a>
                 </div>
             </article>
         </section>
-        <section>
-            <form action="">
-                <fieldset>
-                    <legend>Contacta con nosotros</legend>
-                    <input type="email" placeholder="correo electronico">
-                    <input type="submit" value="Quiero recibir más información">
+        <section class="principal__contacto">
+            <form  class="principal__contacto__form" action="">
+                <fieldset class="principal__contacto__form__marco">
+                    <legend class="principal__contacto__form__marco__titulo">Contacta con nosotros</legend>
+                    <label class="principal__contacto__form__marco__label">
+                        <input class="principal__contacto__form__marco__email" type="email" placeholder="correo electronico">
+                        <input class="principal__contacto__form__marco__boton" type="submit" value="Quiero recibir más información">
+                    </label>
                 </fieldset>
             </form>
         </section>
     </main>
-    <footer>
-        <ul>
-            <li><a href="">Cookies</a></li>
-            <li><a href="">Política de privacidad</a></li>
-            <li><a href="">Aviso legal</a></li>
+    <footer class="piepagina">
+        <ul class="piepagina__lista">
+            <li><a class="piepagina__lista__enlace" href="">Cookies</a></li>
+            <li><a class="piepagina__lista__enlace" href="">Política de privacidad</a></li>
+            <li><a class="piepagina__lista__enlace" href="">Aviso legal</a></li>
         </ul>
     </footer>
     

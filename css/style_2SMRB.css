@@ -1,0 +1,161 @@
+/* ------ Cambios aplicados a todas las etiquetas ------*/
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ------ Cabecero (Header) -----*/
+.cabecera{
+    background-color: #010101;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.cabecera__logo{
+    width: 10rem;
+}
+
+.cabecera__menu{
+    margin-right: 3rem;
+}
+
+.cabecera__menu__lista{
+    display:flex;
+}
+
+.cabecera__menu__lista__enlace{
+    margin-right:1.25rem;
+    color:aliceblue;
+    font-size: 1.5rem;
+}
+
+.cabecera__menu__lista__enlace:hover{
+    color: greenyellow;
+}
+
+/* -------- Principal (main) -------*/
+
+.principal{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: aliceblue;
+    align-items: center;
+}
+
+.principal__texto{
+    text-align: center;
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
+
+.principal__viajes{
+    display: flex;
+    width: 100%;
+}
+
+.principal__viajes__art{
+    width:100%;
+    margin:1rem;
+}
+
+.principal__viajes__art__img{
+    width:100%;
+    border-radius: 1.5rem;
+    /* margin: 2rem; */
+}
+
+.principal__viajes__art__div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.principal__viajes__art__div__text{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.principal__viajes__art__div__enlace{
+    background-color: grey;
+    padding:0.25rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+.principal__viajes__art__div__enlace:hover{
+    background-color: #010101;
+}
+
+.principal__contacto{
+    background-color: #010101;
+    width: 100%;
+    padding: 7.5rem;
+}
+
+.principal__contacto__form__marco{
+    display:flex;
+    flex-direction: column ;
+    align-items: center;
+    border: 0;
+}
+
+.principal__contacto__form__marco__titulo{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.principal__contacto__form__marco__label{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.principal__contacto__form__marco__email{
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    border: 0;
+    font-size: 95%;
+}
+
+.principal__contacto__form__marco__boton{
+    padding: 0.5rem;
+    border: 0;
+    background-color: grey;
+    color: aliceblue;
+    font-size: 95%;
+    border-radius: 0.3rem;
+}
+
+.principal__contacto__form__marco__boton:hover{
+    background-color: rgb(248, 248, 111);
+    color: #010101;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------- Footer -------*/
+

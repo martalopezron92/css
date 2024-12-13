@@ -8,4 +8,4 @@ Crea un nuevo html llamado "actividad1_a.html" con la misma estructura del ejemp
 
 Crea un nuevo html llamado "actividad1_b.html" con la misma estructura del ejemplo de clase. Selecciona sólo la información relativa a cabecero de la página. Modifica el código css (style_act1_b.css) para crear una imagen como la indicada en el siguiente ejemplo:
 
-![Ejemplo del nuevi cabecero](../img/act1_b.JPG)
+![Ejemplo del nuevo cabecero](../img/act1_b.JPG)
